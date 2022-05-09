@@ -1,0 +1,35 @@
+.title{
+    font-size: 36px;
+    border-top: 4px double rgb(170, 81, 81);
+    border-bottom: 4px double rgb(170, 81, 81);
+    margin: 100px 35% 20px 32%;
+    padding: 25px 0px 25px 15px;
+    background-color: rgb(250, 217, 217);
+    color: rgb(114, 0, 0);
+}
+.reading-list{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px 0px 0px 32%;
+}
+.optional{
+    color: red;
+}
+.required{
+    margin: 20px 0px 0px 32%;
+}
+.text-box{
+    background-color: rgb(192, 201, 250);
+    border: 2px solid blue;
+    margin: 20px 37% 0px 33%;
+    font-weight: bold;
+    padding: 30px;
+}
+.week{
+    color: blue;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+div li{
+    margin-left: 30px;
+}

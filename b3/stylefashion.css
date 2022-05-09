@@ -1,0 +1,17 @@
+body{
+    font-family: 'Libre Bodoni'
+}
+*{
+    /* padding: 0px; */
+    margin: 0px;
+}
+.content {
+    height: 600px;
+    width: 100%;
+    background-image:url(./ImageFashion/Background.png) ;
+    background-size: cover
+    }
+.body{
+    font-family: 'PT Serif'
+}
+    

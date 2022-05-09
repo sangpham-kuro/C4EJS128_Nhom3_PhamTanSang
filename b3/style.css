@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Oswald'
+}
+h1{
+    text-align: center;
+    color:white
+}
+h2{
+    margin-left: 20px;
+    color: white;
+}
+hr{
+    color: white;
+}
