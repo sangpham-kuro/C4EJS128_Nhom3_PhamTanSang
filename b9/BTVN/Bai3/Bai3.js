@@ -15,7 +15,7 @@ switch (month <= 7) {
             //kiểm tra năm nhuận nếu là tháng 2
             if (((year % 4 === 0) && (year % 100 !== 0)) || (year % 400 === 0)) {
                 maxDay = 29;
-    
+
             } else {
                 maxDay = 28;
             }
