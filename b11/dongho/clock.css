@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #0652DD;
+    background-image: linear-gradient(to bottom left, #0652DD, #ecf0f1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.box-clock {
+    background-color: #1e272e;
+    width: 50%;
+    height: 100px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+.item-clock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.item-value {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.item-atribute {
+    font-style: italic;
+    font-size: 16px;
+}
