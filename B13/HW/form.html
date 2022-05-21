@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form action="form.html" method="get" class="form-login" id="btn-submit" name="myForm">
+            <h1 class="form-heading">
+                Form dang nhap
+            </h1>
+            <div class="form-group" >
+                <i class="fa-solid fa-user"></i>
+                <input name="tdn" required type="text" class="form-input" placeholder="Ten dang nhap">
+            </div>
+            <div class="form-group" >
+                <i class="fa-solid fa-key"></i>
+                <input minlength="8" name="pass" type="password" class="form-input" placeholder="Password">
+                <i class="fa-solid fa-eye" id="eye"></i>
+            </div>
+            <div class="form-footer" >
+                <input type="submit" value="Submit" class="form-submit">
+            </div>
+        </form>
+    </div>
+    <script src="form.js"></script>
+
+</body>
+</html>
