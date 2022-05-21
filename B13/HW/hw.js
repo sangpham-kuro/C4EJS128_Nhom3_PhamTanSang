@@ -32,4 +32,4 @@ function init () {
 }
 
 window.addEventListener("load", init);
-// load Event là 
+// load Event là event chạy khi thẻ đó đang load
